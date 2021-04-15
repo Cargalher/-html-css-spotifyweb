@@ -9,15 +9,28 @@ border: #080B12;
     background-color: #282828;
 }
 #site_header{
-    height: 80px;
-    background-color: skyblue;
+ 
+   
    
 }
-#site_main{
-    height:400px;
-    background-color: pink;
-}
+
 #site_footer{
     height: 80px;
     background-color: skyblue;
 }
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  #site_main{
+    height:400px;
+    background-color: pink;
+    margin-left: 200px;
+  }
