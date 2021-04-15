@@ -10,13 +10,14 @@ border: #080B12;
 }
 #site_header{
     height: 80px;
-    border: #080B12;
+    background-color: skyblue;
+   
 }
 #site_main{
     height:400px;
-    background-color: #141922;
+    background-color: pink;
 }
 #site_footer{
     height: 80px;
-    background-color: #282828;
+    background-color: skyblue;
 }
