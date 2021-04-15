@@ -21,7 +21,7 @@ font-size: 11px;
     width: 65%;
 }
 .sidenav {
-    height: 100%;
+   height: calc(100vh - 80px);
     width: 200px;
     position: fixed;
     z-index: 1;
@@ -45,4 +45,6 @@ font-size: 11px;
     background-color:gray;
     position: fixed;
     width: 100%;
+    left:0;
+    bottom: 0;
 }
