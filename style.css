@@ -61,9 +61,7 @@ sidenav
     .sidenav{
         width:60px;
     }
-    #site_main{
-        width: calc(100%-60px);
-    }
+    
 }
   
 /***************
@@ -72,7 +70,12 @@ MAIN
   #site_main {
       width: calc(100% - 200px);
   }
-
+  @media screen and (max-width: 480px){
+    
+    #site_main{
+        width: calc(100% - 60px);
+    }
+}
   .top_main {
       height: 100px;
   }
