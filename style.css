@@ -37,10 +37,23 @@ font-size: 11px;
     height: 5px;
 }
 .f_color{
-    color: rgba(221, 211, 211, 0.74);
+    color: #e6dbdb54;
 }
 .logo{
     width: 65%;
+}
+.h_icon{
+    height: 20px;
+}
+.h13_icon{
+    height: 13px;
+}
+.scroll_side{
+    overflow: auto;
+
+  height: 400px;
+
+  width: 100%;
 }
 .sidenav {
    height: calc(100vh - 80px);
@@ -53,7 +66,7 @@ font-size: 11px;
     overflow-x: hidden;
     padding-top: 10px;
     overflow-y: auto;
-    
+ 
   }
 
   #site_main{
