@@ -41,7 +41,9 @@ font-size: 11px;
 .h13_icon{
     height: 13px;
 }
-
+.img_album{
+    height:160px;
+}
 /***************
 sidenav
 ***************/
