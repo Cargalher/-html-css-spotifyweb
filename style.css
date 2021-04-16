@@ -47,6 +47,7 @@ font-size: 11px;
     background-color: #080B12;;
     overflow-x: hidden;
     padding-top: 10px;
+    overflow-y: auto;
     
   }
 .bottom_sidenav{
