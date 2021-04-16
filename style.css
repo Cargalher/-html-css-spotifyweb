@@ -85,6 +85,11 @@ font-size: 11px;
       text-decoration: none;
       color: white;
   }
+  @media screen and (max-width: 480px){
+      .sidenav{
+          width:60px;
+      }
+  }
   #site_footer{
     height: 80px;
     background-color:rgb(54, 51, 51);
@@ -97,6 +102,11 @@ font-size: 11px;
     width: auto ;
     height: 50px;
 }
-.progress_bar{
-width: 25%;
+.pbar_1{
+
+}
+.pbar_2{
+    border-bottom: 3px solid #e6dbdb54;
+    width: 96px;
+    border-radius: 2px;
 }
