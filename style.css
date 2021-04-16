@@ -57,7 +57,7 @@ sidenav
     padding-top: 10px;
     overflow-y: auto;
   }
-  @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
     .sidenav{
         width:60px;
     }
