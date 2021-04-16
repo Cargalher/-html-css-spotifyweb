@@ -66,9 +66,8 @@ font-size: 11px;
     overflow-x: hidden;
     padding-top: 10px;
     overflow-y: auto;
- 
   }
-
+  
   #site_main{
     height: 100vh;
     /* background-color: pink; */
