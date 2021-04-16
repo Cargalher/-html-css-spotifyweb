@@ -58,6 +58,9 @@ font-size: 11px;
     .sidenav{
         width:60px;
     }
+    #site_main{
+        width: calc(100%-60px);
+    }
 }
   
 /* Main */
