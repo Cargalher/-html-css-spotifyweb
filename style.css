@@ -1,4 +1,6 @@
-
+/***************
+utility
+***************/
 .bg_darkest{
 background-color: #080B12;
 }
@@ -8,8 +10,6 @@ background-color: #080B12;
 .bg_darkgray{
     background-color: #282828;
 }
-
-/* utility */
 .fs_11{
 font-size: 11px;
 }
@@ -35,15 +35,18 @@ font-size: 11px;
 .f_color{
     color: #e6dbdb54;
 }
-/* sidenav */
-.logo{
-    width: 65%;
-}
 .h_icon{
     height: 20px;
 }
 .h13_icon{
     height: 13px;
+}
+
+/***************
+sidenav
+***************/
+.logo{
+    width: 65%;
 }
 
 .sidenav {
@@ -63,7 +66,9 @@ font-size: 11px;
     }
 }
   
-/* Main */
+/***************
+MAIN
+***************/
   #site_main {
       width: calc(100% - 200px);
   }
@@ -77,7 +82,9 @@ font-size: 11px;
       height: calc(100% - 100px);
   }
 
-  /* footer */
+/***************
+FOOTER
+***************/
   
   #site_footer{
     height: 80px;
