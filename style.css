@@ -51,8 +51,12 @@ font-size: 11px;
     height:115px;
 
 }
+little_scroll{
+    overflow: auto;
+}
 #site_main{
-    overflow: hidden;
+    overflow: auto;
+    height: calc(100vh - 80px);
 }
 /* #site_main .overlay{
 display: none;
