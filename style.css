@@ -16,6 +16,9 @@ font-size: 11px;
 .fs_12{
     font-size: 12px;
 }
+.fs_14{
+    font-size: 14px;
+}
 .fs_17{
     font-size: 17px;
 }
@@ -30,6 +33,9 @@ font-size: 11px;
 }
 .lh_25{
     line-height: 25px;
+}
+.lh_14{
+    line-height: 14px;
 }
 .font_upgrade{
     font-size: 11px;
@@ -58,7 +64,7 @@ little_scroll{
     overflow: auto;
     height: calc(100vh - 80px);
 }
-/* #site_main .overlay{
+#site_main .overlay{
 display: none;
 position: absolute;
 width:100%;
@@ -74,8 +80,8 @@ background-color: rgba(240, 238, 238, 0.493);
 }
 #site_main .song:hover .overlay {
     display: block;
-} */
-/***************
+}
+/***************8i8i8i777777
 sidenav
 ***************/
 .logo{
@@ -116,6 +122,21 @@ MAIN
       
       height: calc(100% - 100px);
   }
+  .green_border{
+      position: relative;
+      /* border-bottom:2px solid gray; */
+      padding-bottom: 7px;
+      margin: 0;
+  }
+  .green_border:before {
+    position: absolute;
+    background: green;
+    height: 3px;
+    content: '';
+    width: 30px;
+    bottom: -2px;
+    left: 20px;
+  }
 
 /***************
 FOOTER
@@ -133,15 +154,28 @@ FOOTER
     width: auto ;
     height: 50px;
 }
-.pbar_1{
-    border-bottom: 3px solid #e6dbdb54;
-    width: 250px;
-    border-radius: 2px;
+.gray_bar1{
+    position: relative;
+    border-bottom:3px solid gray;
+    padding-bottom: 7px;
+    margin: 0;
+    width: 350px;
 }
-.pbar_2{
-    border-bottom: 3px solid #e6dbdb54;
-    width: 96px;
-    border-radius: 2px;
+.white_bar{
+    position: absolute;
+    background: white;
+    height: 3px;
+    content: '';
+    width: 83px;
+    bottom: -3px;
+    left: -28px;
+}
+.gray_bar2{
+    position: relative;
+    border-bottom:3px solid gray;
+    padding-bottom: 7px;
+    margin: 0;
+    width: 83px;
 }
 #site_main{
     overflow: auto;
