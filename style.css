@@ -49,7 +49,28 @@ font-size: 11px;
 }
 .img_album{
     height:115px;
+
 }
+#site_main{
+    overflow: hidden;
+}
+/* #site_main .overlay{
+display: none;
+position: absolute;
+width:100%;
+height: 100%;
+background-color: rgba(240, 238, 238, 0.493);
+}
+#site_main .overlay > i {
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    position: absolute;
+    color:red;
+}
+#site_main .song:hover .overlay {
+    display: block;
+} */
 /***************
 sidenav
 ***************/
@@ -117,4 +138,9 @@ FOOTER
     border-bottom: 3px solid #e6dbdb54;
     width: 96px;
     border-radius: 2px;
+}
+#site_main{
+    overflow: auto;
+    height: calc(100vh - 80px);
+    
 }

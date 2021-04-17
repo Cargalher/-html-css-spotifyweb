@@ -52,7 +52,7 @@
         <!-- /sidebar -->
 
         <!-- Main -->
-        <main id="site_main">
+        <main id="site_main" class="bg_darkblue">
             <!-- top_main -->
             <div class="top_main bg_darkest">
                 <div class="container d-flex  flex-row-reverse ">
@@ -61,10 +61,10 @@
             </div>
             <!-- /top_main -->
             <!-- bottom_main ALBUMS-->
-            <div class="bottom_main bg_darkblue">
+            <div class="bottom_main">
                 <!-- Menu -->
               <div class=" text-white">
-                    <ul class="list-group list-group-horizontal list-unstyled flex-wrap justify-content-center p-3 text-uppercase text-decoration-none fs_12">
+                    <ul class="list-group list-group-horizontal list-unstyled flex-wrap justify-content-center p-3 text-uppercase fs_12">
                         <li class="mr-4 ml-4">In evidenza</li>
                         <li class="mr-4 ml-4">Podcast</li>
                         <li class="mr-4 ml-4">Classifiche</li>
@@ -76,9 +76,10 @@
                 <!-- /Menu -->
                 <!-- Recently Played -->
                 <h2 class="text-white mb-4 ml-4 fs_20">Recently played</h2>
-                <div class="d-flex justify-content-around flex-wrap text-white">
+                <div  class="d-flex justify-content-around flex-wrap text-white">
                     <div class="d-flex flex-column text-center">
-                        <img src="img/metal_lifting.jpg" alt="Heavy metal album" class="img-fluid img_album">
+                        <div class="overlay"><i class="far fa-play-circle ml-4 mr-4"></i></i></div>
+                        <img src="img/metal_lifting.jpg" alt="Heavy metal album" class="img-fluid img_album overlay">
                         <span class="fs_12">Heavy metal</span>
                         <span class="fs_11">Subtitle</span>
                     </div>
@@ -110,38 +111,39 @@
                 </div>
                 <!-- /Recently Player -->
                 <!-- Creato per John -->
-                <div>
-                    <h2 class="text-white ml-4 fs_20">Creato per John Doe</h2>
-                    <span class="text-white ml-4 fs_11">Più ascolti, più accurati saranno i suggerimenti</span>
-                    <div class="d-flex justify-content-start flex-wrap text-white">
-                        <div class="d-flex flex-column text-center">
-                            <img src="img/radar.jpeg" alt="Heavy metal album" class="img-fluid img_album">
-                            <span class="fs_12">Release Radar</span>
+                <h2 class="text-white ml-4 fs_20">Creato per John Doe</h2>
+                <span class="text-white ml-4 fs_11">Più ascolti, più accurati saranno i suggerimenti</span>
+                <div  class="d-flex justify-content-start flex-wrap text-white">
+                    <div class="d-flex flex-column text-center">
+                        <img src="img/radar.jpeg" alt="Release Radar Album" class="img-fluid img_album m-4">
+                        <span class="fs_12">Release Radar</span>
                            
-                        </div>
-                        <div class="d-flex flex-column text-center">
-                            <img src="img/mixdaily.jpeg" alt="stranger things series OST" class="img-fluid img_album">
-                            <span class="fs_12">Daily Mix 1</span>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                        <img src="img/mixdaily.jpeg" alt="Mix and Daily 1 Album" class="img-fluid img_album m-4">
+                        <span class="fs_12">Daily Mix 1</span>
                             
-                        </div>
+                    </div>
                 </div>
                 <!-- /Creato per John -->
                 <!-- Artisti più popolari -->
-                <div>
-                    <h2 class="text-white ml-4 fs_20">Artisti più popolari</h2>
-                    <span class="text-white ml-4 fs_11">Più ascolti, più accurati saranno i suggerimenti</span>
-                    <div class="d-flex justify-content-start flex-wrap text-white">
-                        <div class="d-flex flex-column text-center">
-                            <img src="img/youg.jpeg" alt="Heavy metal album" class="img-fluid img_album">
-                            <span class="fs_12">Release Radar</span>
+                <h2 class="text-white ml-4 fs_20">Artisti più popolari</h2>
+                <span class="text-white ml-4 fs_11">Più ascolti, più accurati saranno i suggerimenti</span>
+                <div  class="d-flex justify-content-start flex-wrap text-white">
+                    <div class="d-flex flex-column text-center">
+                        <img src="img/youg.jpeg" alt="Lana del Rey Album" class="img-fluid img_album rlounded-circle m-4">
+                        <span class="fs_12">Release Radar</span>
                            
-                        </div>
-                        <div class="d-flex flex-column text-center">
-                            <img src="img/einaudi.jpeg" alt="stranger things series OST" class="img-fluid img_album">
-                            <span class="fs_12">Daily Mix 1</span>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                        <img src="img/einaudi.jpeg" alt="Mix and Daily 1 Album" class="img-fluid img_album rounded-circle m-4">
+                        <span class="fs_12">Daily Mix 1</span>
                             
-                        </div>
-                </div>
+                    </div>
+                </div>   
+                
+                
+                
                 <!-- /Artisti più popolari -->
             </div>
             <!-- /bottom_main -->
