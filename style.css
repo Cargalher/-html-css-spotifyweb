@@ -57,7 +57,7 @@ font-size: 11px;
     height:115px;
 
 }
-little_scroll{
+.little_scroll{
     overflow: auto;
 }
 #site_main{
@@ -101,6 +101,9 @@ sidenav
         width:60px;
     }
     
+
+
+
 }
   
 /***************
@@ -198,4 +201,7 @@ FOOTER
     left: -4px;
     border-radius: 2px;
     
+}
+a:hover{
+    color:white;
 }
