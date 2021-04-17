@@ -109,6 +109,11 @@ MAIN
   #site_main {
       width: calc(100% - 200px);
   }
+  #site_main{
+    overflow: auto;
+    height: calc(100vh - 80px);
+    
+}
   @media screen and (max-width: 480px){
     #site_main{
         width: calc(100% - 60px);
@@ -156,29 +161,41 @@ FOOTER
 }
 .gray_bar1{
     position: relative;
+    bottom:6px;
     border-bottom:3px solid gray;
+    border-radius: 2px;
     padding-bottom: 7px;
     margin: 0;
     width: 350px;
 }
-.white_bar{
+.white_bar1{
     position: absolute;
     background: white;
     height: 3px;
     content: '';
     width: 83px;
     bottom: -3px;
-    left: -28px;
+    left: 0px;
+    border-radius: 2px;
 }
 .gray_bar2{
     position: relative;
+    right:-8px;
     border-bottom:3px solid gray;
+    border-radius: 2px;
+    bottom:6px;
     padding-bottom: 7px;
     margin: 0;
-    width: 83px;
+    width: 85px;
 }
-#site_main{
-    overflow: auto;
-    height: calc(100vh - 80px);
+.white_bar2{
+    position: absolute;
+    background: white;
+    height: 3px;
+    content: '';
+    width: 25px;
+    bottom: -3px;
+    left: -4px;
+    border-radius: 2px;
     
 }
