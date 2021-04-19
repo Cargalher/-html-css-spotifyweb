@@ -110,6 +110,15 @@
         .h_icon, .h13_icon {
             height: 28px;
         }
+        .fs_19{
+            font-size: 19px;
+        }
+        .fs_14{
+            font-size: 14px;
+        }
+        .lh_22{
+        line-height: 22px;
+        }
 
     }
       
@@ -187,7 +196,21 @@
       bottom: -2px;
       left: 20px;
     }
-   
+    @media screen and (max-width: 991px){
+        .fs_19{
+            font-size: 19px;
+        }
+        .fs_14{
+            font-size: 14px;
+        }
+        .lh_22{
+            line-height: 22px;
+            }
+        .recent_play{
+                margin-top:15px;
+            }
+
+    }
     @media screen and (max-width: 768px){
         .img_block{
             width: 25%;
@@ -195,6 +218,15 @@
         .img_album{
             width: 80%;
         
+        }
+        .fs_19{
+            font-size: 19px;
+        }
+        .fs_14{
+            font-size: 14px;
+        }
+        .lh_22{
+        line-height: 22px;
         }
 
     }
@@ -315,13 +347,67 @@
             left: -8px;
             border-radius: 1px;
         }
-        .footer_center > li{
-            font-size: 10px;
+        
+        .footer_center li{
+            width:24px;
+            font-size: 15px;
+        }
+        .gray_bar1{
+            width: 57px;
+        }
+        .white_bar1{
+            width: 17px;
+            left:-10px;
+        }
+        .footer_right li{
+            width:24px;
+            
+            font-size: 15px;
+            
+        }
+        .gray_bar2{
+            width: 22px;
+        }
+        .white_bar2{
+            width: 12px;
+            left:-2px;
         }
 
 
-
-
+    }
+    @media screen and (max-width: 479px){
+        .footer_center li{
+            width:18px;
+            font-size: 11px;
+        }
+        .gray_bar1{
+            width: 15px;
+            bottom: 7px;
+            left:4px
+        }
+        .white_bar1{
+            width: 11px;
+            left:-11px;
+        }
+        .footer_right li{
+            width:16px;
+            margin-top: 8px;
+            margin-left: 3px;
+            font-size: 9px;
+            
+        }
+        .gray_bar2{
+            width: 22px;
+        }
+        .white_bar2{
+            width: 12px;
+            left:-2px;
+        }
+        .times{
+          font-size: 9px;
+            margin-left: 2px;
+            margin-right: 4px;
+        }
     }
     @media screen and (max-width: 768px){
 
