@@ -132,6 +132,7 @@
       #site_main{
         width: calc(100% - 200px);
         overflow: auto;
+        overflow-x: hidden;
         height: calc(100vh - 80px);
         
     }
@@ -177,7 +178,6 @@
     }
     .green_border{
         position: relative;
-        /* border-bottom:2px solid gray; */
         padding-bottom: 7px;
         margin: 0;
     }
@@ -204,6 +204,10 @@
                 margin-top:15px;
             }
 
+            
+
+       
+
     }
     @media screen and (max-width: 768px){
         .img_block{
@@ -228,6 +232,7 @@
             bottom: 3px;
             left: 23px;
         }
+        
 
     }
     
@@ -247,6 +252,8 @@
             bottom: 3px;
             left: 23px;
         }
+        
+       
     }
     
     /***************
