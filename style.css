@@ -136,7 +136,7 @@
         cursor: pointer;
     }
     .img_album{
-        height:115px;
+        width:30%;
     
     }
    
@@ -190,9 +190,18 @@
         #site_main{
             width: calc(100% - 60px);
         }
+        .img_block{
+            width: 50%;
+        }
     }
     
-    
+    @media screen and (max-width: 768px){
+        .img_block{
+            width: 25%;
+        }
+
+
+    }
     /***************
     FOOTER
     ***************/
@@ -301,4 +310,13 @@
         .footer_center > li{
             font-size: 10px;
         }
+
+
+
+
+    }
+    @media screen and (max-width: 768px){
+
+
+
     }
