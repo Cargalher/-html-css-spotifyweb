@@ -95,7 +95,10 @@
         .sidenav{
             width:60px;
         }
-        
+        .h_icon, .h13_icon {
+            height: 28px;
+        }
+
         
     
     }
@@ -104,22 +107,30 @@
             border-bottom:none;
             margin-right: 0;
         }
+        .h_icon, .h13_icon {
+            height: 28px;
+        }
+
     }
       
     /***************
         MAIN
     ***************/
-      #site_main {
-          width: calc(100% - 200px);
+    .img_block{
+        width: 16.666%;
+    }
+      .top_main a:hover{
+          background-color: limegreen;
       }
       #site_main{
+        width: calc(100% - 200px);
         overflow: auto;
         height: calc(100vh - 80px);
         
     }
-    /*.top_main button_top:hover{
+    .button_top:hover{
         font-size: larger;
-    }*/
+    }
     .bottom_main, ul li:hover{
         color:white;
         cursor: pointer;
@@ -128,26 +139,29 @@
         height:115px;
     
     }
-    #site_main{
-        overflow: auto;
-        height: calc(100vh - 80px);
-    }
+   
     #site_main .overlay{
     display: none;
     position: absolute;
-    width:100%;
-    height: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:115px;
+    height: 115px;
     background-color: rgba(240, 238, 238, 0.493);
-    }
+    align-items: center;
+    justify-content: center;
+}
     #site_main .overlay > i {
-        transform: translate(-50%, -50%);
-        top:50%;
-        left: 50%;
-        position: absolute;
+      
         color:red;
     }
+
+    .song {
+        position: relative;
+    }
     #site_main .song:hover .overlay {
-        display: block;
+        display: flex;
     }
     .top_main {
         height: 100px;
@@ -237,10 +251,10 @@
     }
     
     /* hovering progressing bars */
-    .gray_bar1 > .white_bar1:hover{
-        color:green;
+    .white_bar1:hover{
+        background-color:green;
     }
-    .gray_bar2 > .white_bar2:hover{
+    .footer_right > .gray_bar2:hover{
         color:green;
     }
     .footer_left, i:hover{
@@ -252,15 +266,12 @@
     
     }
     
-    .play_bar, ul li:hover{
+    .play_bar > ul li:hover{
         font-size: larger;
     }
      
     
-    .footer_right, ul > li > .white_bar2:hover{
-        color: limegreen;                           /*   <-----does not work!*/
-    }
-    
+   
     
     /* media querie footer */
     @media screen and (max-width: 480px){

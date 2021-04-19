@@ -14,24 +14,23 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <body>
-        <!-- WRAPPER_SIDEBAR & MAIN -->
-         <div id="wrapper" class="d-flex flex-wrap">
-     
-             <!-- sidebar -->
-             <nav class="sidenav fs_11 d-flex flex-column ">
-                 <!-- top_sidebar -->
-                 <div class="top_sidenav">
-                     <img src="./img/logo-small.svg" alt="small logo" class="h_icon pl-3 d-block d-sm-none">
-                     <img src="./img/logo.svg" alt="Spotify logo" class="img-fluid logo mb-3 ml-2 d-none d-sm-block">
-                     <ul class="list-unstyled f_color pl-3 lh_25 fs_12 ">
+    <!-- WRAPPER_SIDEBAR & MAIN -->
+    <div id="wrapper" class="d-flex flex-wrap">
+
+        <!-- sidebar -->
+        <nav class="sidenav fs_11 d-flex flex-column ">
+            <!-- top_sidebar -->
+                <div class="top_sidenav">
+                    <img src="./img/logo-small.svg" alt="small logo" class="h_icon pl-3 d-block d-sm-none">
+                    <img src="./img/logo.svg" alt="Spotify logo" class="img-fluid logo mb-3 ml-2 d-none d-sm-block">
+                    <ul class="list-unstyled f_color pl-3 lh_25 fs_12 ">
                          <li class="d-flex align-items-center text-white"><img src="./img/home.svg" alt="" class="h_icon f_color"><span class="d-none d-sm-block">Home</span> </li>
                          <li class="d-flex align-items-center"><img src="./img/search.svg" alt="" class="h_icon f_color"><span class="d-none d-sm-block">Cerca</span></li>
                          <li class="d-flex align-items-center"><img src="./img/libreria.svg" alt="" class="h_icon f_color"><span class="d-none d-sm-block">La tua libreria</span></li>
-                     </ul>
-                     <h6 class="text-uppercase text-white pl-3 d-none d-sm-block">playlist</h6>
-                     <div class="playlist">
-                         <ul class="list-unstyled pl-3 lh_25 f_color d-none d-sm-block fs_12 playlist_list">
+                    </ul>
+                    <h6 class="text-uppercase text-white pl-3 d-none d-sm-block">playlist</h6>
+                    <div class="playlist">
+                        <ul class="list-unstyled pl-3 lh_25 f_color d-none d-sm-block fs_12 playlist_list">
                              <li><i class="fas fa-plus-square text-white fs_17 "></i> Crea Playlist</li>
                              <li>Nome Playlist</li>
                              <li>Nome Playlist</li>
@@ -40,30 +39,32 @@
                              <li>Nome Playlist</li>
                              <li>Nome Playlist</li>
                              <li>Nome Playlist</li>
-                         </ul>
-                     </div>
-                 </div>
-                 <!-- /top_sidebar -->
-                 <!-- bottom_sidebar -->
-                 <ul class="list-unstyled f_color pl-3 lh_25 mt-auto ">
-                     <li class="d-flex align-items-center f_color install_app"><img src="./img/download.svg" alt="download icon" class="h13_icon mr-3 f_color"><span class="d-none d-sm-block fs_12">Installa app</span> </li>
-                     <li class="d-flex align-items-center text-white"><img src="./img/profile.svg" alt="profile icon" class="h13_icon mr-3"><span class="d-none d-sm-block fs_12">John Doe</span> </li>
-                     
-                 </ul>
-                 <!--/ bottom_sidebar -->
-             </nav>
-             <!-- /sidebar -->
+                        </ul>
+                    </div>
+                </div>
+            <!-- /top_sidebar -->
+            
+            <!-- bottom_sidebar -->
+                <ul class="list-unstyled f_color pl-3 lh_25 mt-auto ">
+                    <li class="d-flex align-items-center f_color install_app"><img src="./img/download.svg" alt="download icon" class="h13_icon mr-3 f_color"><span class="d-none d-sm-block fs_12">Installa app</span> </li>
+                    <li class="d-flex align-items-center text-white"><img src="./img/profile.svg" alt="profile icon" class="h13_icon mr-3"><span class="d-none d-sm-block fs_12">John Doe</span> </li>
+                </ul>
+            <!--/ bottom_sidebar -->
+
+        </nav>
+        <!-- /sidebar -->
      
-             <!-- Main -->
-             <main id="site_main" class="bg_darkblue">
-                 <!-- top_main -->
-                 <div class="top_main bg_darkest">
-                     <div class=" button_top container d-flex  flex-row-reverse ">
-                         <a href="#" class="text-uppercase text-white  rounded-pill border border-white ms-auto font_upgrade text-decoration-none pl-4 pr-4 pt-2 pb-2 mt-3 ">Effetua l'upgrade</a>
-                     </div>
-                 </div>
-                 <!-- /top_main -->
-                 <!-- bottom_main ALBUMS-->
+        <!-- Main -->
+        <main id="site_main" class="bg_darkblue">
+            <!-- top_main -->
+            <div class="top_main bg_darkest">
+                <div class=" button_top container d-flex  flex-row-reverse ">
+                    <a href="#" class="text-uppercase text-white  rounded-pill border border-white ms-auto font_upgrade text-decoration-none pl-4 pr-4 pt-2 pb-2 mt-3 ">Effetua l'upgrade</a>
+                </div>
+            </div>
+            <!-- /top_main -->
+
+                <!-- bottom_main ALBUMS-->
                  <div class="bottom_main">
                      <!-- Menu -->
                      <div class=" f_color">
@@ -80,33 +81,36 @@
                      <!-- Recently Played -->
                      <h2 class="text-white mb-4 ml-4 fs_20">Recently played</h2>
                      <div  class="d-flex justify-content-start flex-wrap text-white">
-                         <div class="d-flex flex-column text-center">
-                             <div class="overlay"><i class="far fa-play-circle"></i></i></div>
-                             <img src="img/metal_lifting.jpg" alt="Heavy metal album" class="img-fluid img_album m-4">
-                             <span class="fs_14">Heavy metal</span>
-                             <span class="fs_11 f_color">Subtitle</span>
-                         </div>
-                         <div class="d-flex flex-column text-center">
+                        <div class="img_block d-flex flex-column text-center">
+                            <div class="song">
+                                <div class="overlay"><i class="far fa-play-circle"></i></i></div>
+                                <img src="img/metal_lifting.jpg" alt="Heavy metal album" class="img-fluid img_album m-4">
+                            </div>
+                             
+                            <span class="fs_14">Heavy metal</span>
+                            <span class="fs_11 f_color">Subtitle</span>
+                        </div>
+                        <div class="img_block d-flex flex-column text-center">
                              <img src="img/stranger.jpeg" alt="stranger things series OST" class="img-fluid img_album m-4">
                              <span class="fs_14 lh_14">Stranger Things, Vol. <br> 1(a Netflix Original <br> Series Soundtrack)</span>
                              <span class="fs_11 f_color">Kyle Dixon & Michael Stein</span>
                          </div>
-                         <div class="d-flex flex-column text-center">
+                         <div class="img_block d-flex flex-column text-center">
                              <img src="img/aquietplace.jpeg" alt="A quiet place OST" class="img-fluid img_album m-4">
                              <span class="fs_14">A quiet place</span>
                              <span class="fs_11 f_color">Subtitle</span>
                          </div>
-                         <div class="d-flex flex-column text-center">
+                         <div class="img_block d-flex flex-column text-center">
                              <img src="img/split.jpeg" alt="Split OST" class="img-fluid img_album m-4">
                              <span class="fs_14">Split</span>
                              <span class="fs_11 f_color">Subtitle</span>
                          </div>
-                         <div class="d-flex flex-column text-center">
+                         <div class="img_block d-flex flex-column text-center">
                              <img src="img/cure.jpeg" alt="A cure for wellness OST" class="img-fluid img_album m-4">
                              <span class="fs_14">A cure for wellness</span>
                              <span class="fs_11 f_color">Subtitle</span>
                          </div>
-                         <div class="d-flex flex-column text-center">
+                         <div class="img_block d-flex flex-column text-center">
                              <img src="img/sinister.jpeg" alt="Sinister OST" class="img-fluid img_album m-4">
                              <span class="fs_14">Sinister</span>
                              <span class="fs_11 f_color">Subtitle</span>
@@ -155,56 +159,56 @@
          <!-- /WRAPPER_SIDEBAR & MAIN -->
      
          <!-- FOOTER -->
-         <footer id="site_footer">
-                 <div class="d-flex justify-content-between align-items-center  text-white">
-                     <!-- left -->
-                         <div class=" footer_left d-flex align-items-center">
-                         
-                             <img class="img_sinister ml-2 mr-2 mt-3 mb-3" src="./img/sinister.jpeg" alt="">
-                             <span class=" sinister_title mr-4 lh_12 fs_14">Sinister <br> <span class="f_color fs_11">Brano Nome</span> </span>
-                             <div class="mr-2 flex-wrap">
-                                 <i class="far fa-heart pr-2 fs_12 f_color"></i>
-                                 <i class="far fa-folder fs_12 f_color"></i>
-                             </div>
-     
-                         </div>
-                     <!-- /left -->
-     
-                     <!-- center -->
-                     <div class="footer_center">
-                         <div  class="play_bar d-flex justify-content-center ">
-                             <ul class="list-group list-group-horizontal list-unstyled fs_17 mb-2 ">
-                                 <li><i class="fas fa-random ml-4 mr-4"></i></li>
-                                 <li><i class="fas fa-fast-backward ml-4 mr-4"></i></li>
-                                 <li><i class="far fa-play-circle ml-4 mr-4"></i></li>
-                                 <li><i class="fas fa-step-forward ml-4 mr-4"></i></li>
-                                 <li><i class="fas fa-redo-alt ml-4 mr-4"></i></li>
-                             </ul>
-                         </div>
-                         
-                         <div class=" footer_center pbar_1 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-start justify-content-xs-start flex-wrap">
-                             <div class="mr-3 n_1 d-inline">0:25</div>
-                             <div class="gray_bar1">
-                                 <span class="white_bar1"></span>
-                             </div>
-                             <div class="ml-3 n_2">4:35</div>
-                         </div>
-                     
-                     </div>
-                     <!-- /center -->
-     
-                     <!-- right -->
-                     <div class=" footer_right flex-wrap">
-                             <ul class="list-group list-group-horizontal list-unstyled mr-4">
-                                 <li><i class="fas fa-list mr-2"></i></i></li>
-                                 <li><i class="fas fa-desktop  ml-2 mr-2"></i></li>
-                                 <li><i class="fas fa-volume-up  ml-2 mr-2"></i></li>
-                                 <li class="gray_bar2"> <div class="white_bar2"></div></li>
-                             </ul>    
-                     </div>
-                     <!-- right -->
-                 </div>
-         </footer>
-         <!-- /FOOTER -->
-     </body>
+                <footer id="site_footer">
+                        <div class="d-flex justify-content-between align-items-center  text-white">
+                            <!-- left -->
+                                <div class=" footer_left d-flex align-items-center">
+                                
+                                    <img class="img_sinister ml-2 mr-2 mt-3 mb-3" src="./img/sinister.jpeg" alt="">
+                                    <span class=" sinister_title mr-4 lh_12 fs_14">Sinister <br> <span class="f_color fs_11">Brano Nome</span> </span>
+                                    <div class="mr-2 flex-wrap">
+                                        <i class="far fa-heart pr-2 fs_12 f_color"></i>
+                                        <i class="far fa-folder fs_12 f_color"></i>
+                                    </div>
+            
+                                </div>
+                            <!-- /left -->
+            
+                            <!-- center -->
+                            <div class="footer_center">
+                                <div  class="play_bar d-flex justify-content-center ">
+                                    <ul class="list-group list-group-horizontal list-unstyled fs_17 mb-2 ">
+                                        <li><i class="fas fa-random ml-4 mr-4"></i></li>
+                                        <li><i class="fas fa-fast-backward ml-4 mr-4"></i></li>
+                                        <li><i class="far fa-play-circle ml-4 mr-4"></i></li>
+                                        <li><i class="fas fa-step-forward ml-4 mr-4"></i></li>
+                                        <li><i class="fas fa-redo-alt ml-4 mr-4"></i></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class=" footer_center pbar_1 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-start justify-content-xs-start flex-wrap">
+                                    <div class="mr-3 n_1 d-inline">0:25</div>
+                                    <div class="gray_bar1">
+                                        <span class="white_bar1"></span>
+                                    </div>
+                                    <div class="ml-3 n_2">4:35</div>
+                                </div>
+                            
+                            </div>
+                            <!-- /center -->
+            
+                            <!-- right -->
+                            <div class=" footer_right flex-wrap">
+                                    <ul class="list-group list-group-horizontal list-unstyled mr-4">
+                                        <li><i class="fas fa-list mr-2"></i></i></li>
+                                        <li><i class="fas fa-desktop  ml-2 mr-2"></i></li>
+                                        <li><i class="fas fa-volume-up  ml-2 mr-2"></i></li>
+                                        <li class="gray_bar2"> <div class="white_bar2"></div></li>
+                                    </ul>    
+                            </div>
+                            <!-- right -->
+                        </div>
+                </footer>
+        <!-- /FOOTER -->
+    </body>
 </html>
