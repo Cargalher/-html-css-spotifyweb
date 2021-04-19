@@ -230,6 +230,7 @@ FOOTER
     border-radius: 2px;
     
 }
+
 /* hovering progressing bars */
 .gray_bar1 > .white_bar1:hover{
     color:green;
@@ -249,13 +250,12 @@ FOOTER
 .play_bar, ul li:hover{
     font-size: larger;
 }
- .footer_center span:hover{
-color:limegreen;              /*   <-----does not work!*/
- }
+ 
 
 .footer_right, ul > li > .white_bar2:hover{
     color: limegreen;                           /*   <-----does not work!*/
 }
+
 
 /* media querie footer */
 @media screen and (max-width: 480px){
