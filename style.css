@@ -112,6 +112,9 @@ font-size: 11px;
     height: calc(100vh - 80px);
     
 }
+/*.top_main button_top:hover{
+    font-size: larger;
+}*/
 .bottom_main, ul li:hover{
     color:white;
     cursor: pointer;
@@ -242,6 +245,7 @@ FOOTER
     color:white;
 
 }
+
 .play_bar, ul li:hover{
     font-size: larger;
 }
