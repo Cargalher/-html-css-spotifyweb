@@ -51,18 +51,15 @@
         height: 20px;
     }
     .h13_icon{
-        height: 13px;
+        height: 20px;
     }
+.profile_user{
+    background-color: gray;
+
+}
     /***************
         /utility
     ***************/
-    
-    
-    
-    
-    
-    
-    
     
     /***************
          sidenav
@@ -75,7 +72,6 @@
        height: calc(100vh - 80px);
         width: 200px;
         background-color: #080B12;
-        overflow-x: hidden;
         padding-top: 10px;
         overflow-y: auto;
       }
@@ -99,8 +95,6 @@
             height: 28px;
         }
 
-        
-    
     }
     @media screen and (max-width: 768px){
         .install_app{
@@ -213,20 +207,26 @@
     }
     @media screen and (max-width: 768px){
         .img_block{
-            width: 25%;
+            width: 50%;
         }
         .img_album{
             width: 80%;
         
         }
-        .fs_19{
-            font-size: 19px;
-        }
-        .fs_14{
-            font-size: 14px;
-        }
+        
+        
         .lh_22{
         line-height: 22px;
+        }
+        .img_block{
+            width: 50%
+        }
+        .main_menu, li{
+            font-size: 12px;
+        }
+        .green_border:before{
+            bottom: 3px;
+            left: 23px;
         }
 
     }
@@ -239,6 +239,13 @@
         }
         .img_block{
             width: 50%
+        }
+        .main_menu, li{
+            font-size: 15px;
+        }
+        .green_border:before{
+            bottom: 3px;
+            left: 23px;
         }
     }
     
@@ -298,8 +305,6 @@
         border-radius: 2px;
         
     }
-    
-    /* hovering progressing bars */
     .white_bar1:hover{
         background-color:limegreen;
     }
@@ -322,7 +327,7 @@
     
    
     
-    /* media querie footer */
+    /* media querie _footer */
     @media screen and (max-width: 991px){
         .footer_center li{
             width:32px;
