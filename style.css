@@ -96,9 +96,14 @@ font-size: 11px;
         width:60px;
     }
     
+    
 
-
-
+}
+@media screen and (max-width: 768px){
+    .install_app{
+        border-bottom:none;
+        margin-right: 0;
+    }
 }
   
 /***************
