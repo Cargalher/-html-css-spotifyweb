@@ -120,7 +120,7 @@
         width: 16.666%;
     }
       .top_main a:hover{
-          background-color: limegreen;
+          font-size: 12px;
       }
       #site_main{
         width: calc(100% - 200px);
@@ -148,13 +148,12 @@
     transform: translate(-50%, -50%);
     width:115px;
     height: 115px;
-    background-color: rgba(240, 238, 238, 0.493);
+    background-color: rgba(240, 238, 238, 0.137);
     align-items: center;
     justify-content: center;
 }
     #site_main .overlay > i {
-      
-        color:red;
+        color:white;
     }
 
     .song {
@@ -252,10 +251,10 @@
     
     /* hovering progressing bars */
     .white_bar1:hover{
-        background-color:green;
+        background-color:limegreen;
     }
-    .footer_right > .gray_bar2:hover{
-        color:green;
+    .white_bar2:hover{
+        background-color:limegreen;
     }
     .footer_left, i:hover{
         color: white;
