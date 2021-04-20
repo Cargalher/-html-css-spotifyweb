@@ -1,6 +1,9 @@
 /***************
     utility
 ***************/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .bg_darkest{
     background-color: #080B12;
     }
