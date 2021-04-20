@@ -76,8 +76,9 @@
         overflow-y: auto;
       }
      
-    .playlist_list{
+    .playlist{
         overflow-y: auto;
+        overflow-x: hidden;
         height:80%;
        
     }
@@ -129,7 +130,7 @@
       }
       #site_main{
         width: calc(100% - 200px);
-        overflow: auto;
+        overflow-y: auto;
         overflow-x: hidden;
         height: calc(100vh - 80px);
         
@@ -393,10 +394,6 @@
     .play_bar > ul li:hover{
         font-size: larger;
     }
-     
-    
-   
-    
     /* media querie _footer */
     @media screen and (max-width: 991px){
         .footer_center li{
@@ -404,7 +401,7 @@
             font-size: 11px;
         }
         .gray_bar1{
-            width:width: 228px;
+            width: 228px;
             bottom: 7px;
             left:4px
         }
