@@ -367,11 +367,13 @@
     }
     .white_bar1:hover:hover{
         background-color:limegreen;
+        cursor: pointer;
         
         
     }
     .ball:hover{
         background-color: white;
+        cursor: pointer;
     }
     .white_bar2:hover{
         background-color:limegreen;
