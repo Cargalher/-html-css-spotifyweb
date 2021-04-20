@@ -542,4 +542,10 @@ body{
             margin-right: 4px;
         }
     }
-    
+    .heart:hover{
+        color: red;
+        font-size: larger;
+    }
+    .volume:hover{
+        font-size: larger;
+    }
