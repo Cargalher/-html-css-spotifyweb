@@ -542,6 +542,7 @@ body{
             margin-right: 4px;
         }
     }
+
     .heart:hover{
         color: red;
         font-size: larger;
@@ -549,3 +550,4 @@ body{
     .volume:hover{
         font-size: larger;
     }
+    
