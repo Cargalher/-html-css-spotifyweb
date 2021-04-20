@@ -191,6 +191,13 @@
       left: 20px;
     }
     @media screen and (max-width: 991px){
+        .img_block{
+            width: 16.666%;
+        }
+        .img_album{
+            width:70%;
+        
+        }
         .fs_19{
             font-size: 19px;
         }
@@ -202,6 +209,9 @@
             }
         .recent_play{
                 margin-top:15px;
+            }
+            .song {
+                position: relative;
             }
 
             
@@ -217,14 +227,14 @@
             width: 80%;
         
         }
-        
+        .song {
+            position: relative;
+        }
         
         .lh_22{
         line-height: 22px;
         }
-        .img_block{
-            width: 50%
-        }
+    
         .main_menu, li{
             font-size: 12px;
         }
@@ -232,7 +242,7 @@
             bottom: 3px;
             left: 23px;
         }
-        
+       
 
     }
     
@@ -245,6 +255,10 @@
         .img_block{
             width: 50%
         }
+        .img_album{
+            width: 80%;
+        
+        }
         .main_menu, li{
             font-size: 15px;
         }
@@ -252,8 +266,27 @@
             bottom: 3px;
             left: 23px;
         }
+        .song {
+            position: relative;
+        }
         
-       
+            
+    }
+    @media (max-width: 320px){
+        #site_main{
+            width: calc(100% - 60px);
+        }
+        .img_block{
+            width: 50%
+        }
+        .img_album{
+            width: 80%;
+        
+        }
+        .song {
+            position: relative;
+        }
+        
     }
     
     /***************
@@ -314,6 +347,7 @@
     }
     .white_bar1:hover{
         background-color:limegreen;
+        
     }
     .white_bar2:hover{
         background-color:limegreen;
